@@ -1,0 +1,2 @@
+rename project name to "Rails".
+or move all files to "Sublime Text/Data/Packages/Rails.

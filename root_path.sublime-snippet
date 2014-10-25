@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+${TM_RAILS_TEMPLATE_START_RUBY_EXPR}root_path${TM_RAILS_TEMPLATE_END_RUBY_EXPR}
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <!-- <tabTrigger>hello</tabTrigger> -->
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <!-- <scope>source.python</scope> -->
+  <tabTrigger>rt</tabTrigger>
+  <scope>text.html.ruby, text.haml</scope>
+  <description>root_path (rt)</description>
+</snippet>

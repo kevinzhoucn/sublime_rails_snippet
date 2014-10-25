@@ -1,0 +1,26 @@
+<snippet>
+  <content><![CDATA[
+<%= form_for @${1:model} do |f| %>
+  <% if @${1}.errors.any? %>
+    <div id="error_explanation">
+      <h2>
+        <%= "#{pluralize(@${1}.errors.count, "error")} prohibited this from being saved:" %>
+      </h2>
+      <ul>
+        <% @${1}.errors.full_messages.each do |msg| %>
+          <li>
+            <%= msg %>
+          </li>
+        <% end %>
+      </ul>
+    </div>
+<% end %>
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <!-- <tabTrigger>hello</tabTrigger> -->
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <!-- <scope>source.python</scope> -->
+  <tabTrigger>ffe</tabTrigger>
+  <scope>text.html.ruby, text.haml</scope>
+  <description>form_for-error</description>
+</snippet>

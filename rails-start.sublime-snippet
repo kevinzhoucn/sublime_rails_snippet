@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[${TM_RAILS_TEMPLATE_START_RUBY_EXPR}${1:start..}${TM_RAILS_TEMPLATE_END_RUBY_EXPR}]]></content>
+    <tabTrigger>rs</tabTrigger>
+    <scope>text.html.ruby, text.haml</scope>
+    <description>rails start symbol</description>
+</snippet>
